@@ -49,4 +49,4 @@ gulp.task('watch', function() {
     });
 });
 
-gulp.task('default', ['default', 'sass', 'js']);
+gulp.task('default', ['sass', 'js']);
