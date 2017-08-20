@@ -1,2 +1,40 @@
 @import "bootstrap/_bootstrap.scss";
 @import "media.scss";
+
+.wrapper{
+	margin: 0 auto;
+	width: 1100px;
+	font-family: Calibri;
+}
+
+.header{
+	&__top{
+		height: 190px;
+	}
+}
+	.top{
+		&__left{
+			padding-top: 40px;
+			font-family: NeoSansPro-Italic;	
+		}
+
+		&__right{
+			width: 550px;
+			float: right;
+			padding-top: 50px;
+			padding-right: 100px;
+			font-size: 12px;
+		}
+			&__number{
+				font-size: 20px;
+			}
+	}
+	.left{
+		width: 550px;
+		font-size: 40px;
+		padding-left: 100px;
+		&__text{
+			font-size: 13px;
+			padding-left: 100px;
+		}
+	}
