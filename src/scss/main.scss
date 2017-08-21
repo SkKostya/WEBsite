@@ -7,34 +7,53 @@
 	font-family: Calibri;
 }
 
-.header{
-	&__top{
-		height: 190px;
+.contacts{
+	&__name{
+		background: linear-gradient(to top right, $green, $bluish);
+		width: 40%;
+		padding-left: 9%;
+		padding-top: 40px;
+		float: left;
+		height: 140px;	
+	}	
+	&__title{
+		font-size: 3em;
+		font-family: NeoSansPro-Italic;
+	}
+	&__text{
+		font-size: 1.5em;
+	}
+
+	&__phone{
+		font-size: 1.16em;
+	}
+	&__number{
+		background: linear-gradient(to top left, $green, $bluish);
+		width: 42%;
+		float: right;
+		text-align: right;
+		padding-top: 50px;
+		height: 130px;
+		padding-right: 9%;
 	}
 }
-	.top{
-		&__left{
-			padding-top: 40px;
-			font-family: NeoSansPro-Italic;	
-		}
 
-		&__right{
-			width: 550px;
-			float: right;
-			padding-top: 50px;
-			padding-right: 100px;
-			font-size: 12px;
-		}
-			&__number{
-				font-size: 20px;
-			}
+.nav{
+	margin: 0 auto;
+	padding: 0;
+	width: 90%;
+	background: linear-gradient(to top, $green, #fff);
+	&__list{
+		width: 70%;
+		background: linear-gradient(to top, $green, #fff);
 	}
-	.left{
-		width: 550px;
-		font-size: 40px;
-		padding-left: 100px;
-		&__text{
-			font-size: 13px;
-			padding-left: 100px;
-		}
+	&__item{
+		display: inline-block;
+		padding: 3%;
+		padding-left: 3.5%;
+		list-style-type: none;
 	}
+	&__link{
+		text-decoration: none;
+	}
+}
