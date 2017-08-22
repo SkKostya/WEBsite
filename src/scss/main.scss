@@ -1,6 +1,7 @@
 @import "bootstrap/_bootstrap.scss";
 @import "media.scss";
 
+a {text-decoration: none;}
 .wrapper{
 	margin: 0 auto;
 	width: 1100px;
@@ -8,12 +9,12 @@
 }
 
 .contacts{
+	background-color: red;
 	&__name{
-		background: linear-gradient(to top right, $green, $bluish);
+		background: linear-gradient(to top right, $green, #d4e398);
 		width: 40%;
 		padding-left: 9%;
 		padding-top: 40px;
-		float: left;
 		height: 140px;	
 	}	
 	&__title{
@@ -28,32 +29,65 @@
 		font-size: 1.16em;
 	}
 	&__number{
-		background: linear-gradient(to top left, $green, $bluish);
+		background: linear-gradient(to top left, $green, #d4e398);
 		width: 42%;
-		float: right;
 		text-align: right;
 		padding-top: 50px;
 		height: 130px;
 		padding-right: 9%;
+		margin-left: 49%;
+		margin-top: -180px;
 	}
 }
 
 .nav{
+	border-radius: 10px;
 	margin: 0 auto;
-	padding: 0;
 	width: 90%;
-	background: linear-gradient(to top, $green, #fff);
+	margin-top: -30px;
+	background: linear-gradient(to top, $green, #d4e398);
 	&__list{
 		width: 70%;
-		background: linear-gradient(to top, $green, #fff);
 	}
 	&__item{
 		display: inline-block;
-		padding: 3%;
-		padding-left: 3.5%;
 		list-style-type: none;
+		height: 60px;
+		width: 15%;
 	}
-	&__link{
-		text-decoration: none;
-	}
+	
 }
+	
+	.link{
+		padding-left: 26%;
+		color: #fff;
+		display: block;
+		padding-top: 20px;
+		height: 40px;
+		&:hover{
+			background-color: $green;
+			&:first-child{
+				border-left-radius: 10px;
+			}
+		}
+		
+	}
+
+	.header{
+		&__btn{
+		width: 12%;
+		border-radius: 20px;
+		background-color: #fff;
+		height: 30px;
+		text-align: center;
+		padding-top: 15px;
+		margin-left: 82%;
+		margin-top: -52.5px;
+			&:before{
+				content: url(../logo/basket.png);
+			}
+		}
+	}
+		.basket{
+			color: $green;
+		}
