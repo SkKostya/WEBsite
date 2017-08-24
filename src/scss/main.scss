@@ -87,10 +87,40 @@
 	}
 }
 
+.main{
+	border-right: 1px solid #f0f0f0;
+	border-left: 1px solid #f0f0f0;
+	width: 90%;
+	margin: 10px auto 0;
+	&__search{
+		width: 75%;
+	}
+	&__input{
+		width: 85%;
+		height: 30px;
+		border-radius: 20px;
+		background-color: $bluish;
+		padding-left: 3%;
+		border: 0.5 solid gray;
+		&:focus{
+			outline: 0;
+		}
+	}
+	&__btn{
+		height: 35px;
+		border-radius: 20px;
+		width: 10%;
+		border: 3px solid $green;
+	}
+}
 
 .footer{
 	width: 90%;
 	margin: 0 auto;
+	border-left: 1px solid #f0f0f0;
+	border-bottom: 1px solid #f0f0f0;
+	border-right: 1px solid #f0f0f0;
+	height: 100px;
 }
 .hookups{
 	width: 60%;
@@ -106,13 +136,10 @@
 	}
 	&__society{
 		float: left;
-		margin-left: 5%;
+		margin-left: 4%;
 		line-height: 16.5px;
 		&__last{
 			line-height: 18.5px;
-		}
-		&__contacts{
-			margin-left: 0;
 		}
 	}
 }
