@@ -1,7 +1,6 @@
 @import "bootstrap/_bootstrap.scss";
 @import "media.scss";
 
-a {text-decoration: none;}
 .wrapper{
 	margin: 0 auto;
 	width: 1100px;
@@ -9,7 +8,6 @@ a {text-decoration: none;}
 }
 
 .contacts{
-	background-color: red;
 	&__name{
 		background: linear-gradient(to top right, $green, #d4e398);
 		width: 40%;
@@ -39,7 +37,6 @@ a {text-decoration: none;}
 		margin-top: -180px;
 	}
 }
-
 .nav{
 	border-radius: 10px;
 	margin: 0 auto;
@@ -61,6 +58,7 @@ a {text-decoration: none;}
 		display: block;
 		padding-top: 20px;
 		height: 40px;
+		text-decoration: none;
 		&:hover{
 			background-color: $green;
 		}
@@ -68,10 +66,9 @@ a {text-decoration: none;}
 			border-radius: 10px 0 0 10px;
 		}
 	}
-
 }
-	.header{
-		&__btn{
+.header{
+	&__btn{
 		width: 12%;
 		border-radius: 20px;
 		background-color: #fff;
@@ -80,11 +77,54 @@ a {text-decoration: none;}
 		padding-top: 15px;
 		margin-left: 82%;
 		margin-top: -52.5px;
-			&:before{
-				content: url(../logo/basket.png);
-			}
+		&:before{
+			content: url(../logo/basket.png);
 		}
-		&__basket{
+	}
+	&__basket{
+		color: $green;
+		text-decoration: none;
+	}
+}
+
+
+.footer{
+	width: 90%;
+	margin: 0 auto;
+}
+.hookups{
+	width: 60%;
+	font-size: 0.8em;
+	&__information{
+		width: 33%;
+	}
+	&__link{
+		color: #000;
+		&__color{
 			color: $green;
 		}
 	}
+	&__society{
+		float: left;
+		margin-left: 5%;
+		line-height: 16.5px;
+		&__last{
+			line-height: 18.5px;
+		}
+		&__contacts{
+			margin-left: 0;
+		}
+	}
+}
+.cube{
+	width: 40%;
+	float: right;
+	padding-top: 25px;
+	&__square{
+		background-color: #c4c4c4;
+		width: 30%;
+		height: 40px;
+		float: left;
+		margin-left: 2%;
+	}
+}
