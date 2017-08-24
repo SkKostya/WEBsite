@@ -56,23 +56,20 @@ a {text-decoration: none;}
 		width: 15%;
 		text-align: center;
 	}
-	
-}
-	
-	.link{
+	&__link{
 		color: #fff;
 		display: block;
 		padding-top: 20px;
 		height: 40px;
 		&:hover{
 			background-color: $green;
-			&:first-child{
-				border-left-radius: 10px;
-			}
 		}
-		
+		&__home{
+			border-radius: 10px 0 0 10px;
+		}
 	}
 
+}
 	.header{
 		&__btn{
 		width: 12%;
@@ -87,7 +84,7 @@ a {text-decoration: none;}
 				content: url(../logo/basket.png);
 			}
 		}
-	}
-		.basket{
+		&__basket{
 			color: $green;
 		}
+	}
