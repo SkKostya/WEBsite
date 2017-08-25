@@ -62,9 +62,9 @@
 		&:hover{
 			background-color: $green;
 		}
-		&__home{
-			border-radius: 10px 0 0 10px;
-		}
+	}
+	&__link_home{
+		border-radius: 10px 0 0 10px;
 	}
 }
 .header{
@@ -88,15 +88,14 @@
 }
 
 .main{
-	border-right: 1px solid #f0f0f0;
-	border-left: 1px solid #f0f0f0;
 	width: 90%;
-	margin: 10px auto 0;
-	&__search{
+	margin: 10px auto 30px;
+	&__sirch{
 		width: 75%;
 	}
 	&__input{
-		width: 85%;
+		margin-left: 3%;
+		width: 80%;
 		height: 30px;
 		border-radius: 20px;
 		background-color: $bluish;
@@ -109,17 +108,94 @@
 	&__btn{
 		height: 35px;
 		border-radius: 20px;
-		width: 10%;
+		width: 12%;
 		border: 3px solid $green;
+		&:focus{
+			outline: 0;
+		}
+	}
+//Блоки с товарами
+	&__choice{
+		width: 75%;
+	}
+	&__goods{
+		float: left;
+		margin-left: 3%;
+		width: 20%;
+		background-color: $bluish;
+		text-align: center;
+		padding: 1%;
+		margin-top: 10px;
+		font-size: 0.9em;
+	}
+	&__apple{
+		color: $green;
+		font-size: 1em;
+	}
+	&__dollar{
+		font-weight: bold;
+	}
+	&__btng{
+		width: 90%;
+		border: 3px solid $green;
+		border-radius: 20px;
+		height: 40px;
+		&:focus{
+			outline: 0;
+		}
+	}
+//Переход по страницам
+	&__transition{
+		width: 80%;
+	}
+	&__list{
+		list-style: none;
+		text-align: center;
+		margin-left: 3%;
+		width: 100%;
+	}
+	&__item{
+		width: 5%;
+		float: left;
+		margin-left: 1%;
+	}
+	&__link{
+		color: #fff;
+		text-decoration: none;
+		background-color: $green;
+		display: block;
+		border-radius: 5px;
+		height: 20px;
+	}
+
+	&__forward{
+		width: 100%;
+		font-size: 1.2em;
+		text-align: right;
+	}
+	&__ref{
+		text-decoration: none;
+		color: $green;
+		&:hover{
+			color: #000;
+		}
 	}
 }
+.remark{
+	text-decoration: none;
+	color: #000;
+	display: block;
+}
+.plea{
+	padding-bottom: 20px;
+	position: relative;
+	top: 25px;
+}
+
 
 .footer{
 	width: 90%;
 	margin: 0 auto;
-	border-left: 1px solid #f0f0f0;
-	border-bottom: 1px solid #f0f0f0;
-	border-right: 1px solid #f0f0f0;
 	height: 100px;
 }
 .hookups{
@@ -130,17 +206,17 @@
 	}
 	&__link{
 		color: #000;
-		&__color{
-			color: $green;
-		}
+	}
+	&__link_bluish{
+		color: $green;
 	}
 	&__society{
 		float: left;
 		margin-left: 4%;
 		line-height: 16.5px;
-		&__last{
-			line-height: 18.5px;
-		}
+	}
+	&__society_line{
+		line-height: 18.5px;
 	}
 }
 .cube{
