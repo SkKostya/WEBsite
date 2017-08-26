@@ -4,7 +4,6 @@
 .wrapper{
 	margin: 0 auto;
 	width: 1100px;
-	font-family: Calibri;
 }
 
 .contacts{
@@ -114,6 +113,96 @@
 			outline: 0;
 		}
 	}
+//Категория товаров
+	&__category{
+		width: 22%;
+		float: right;
+	}
+	&__catalog{
+		list-style-image: url(../logo/arrow.png);
+	}
+	&__roll{
+		border-bottom: 0.5px solid #b1b1b1;
+		margin-bottom: 5px;
+	}
+	&__remark{
+		text-decoration: none;
+		display: block;
+		color: #b1b1b1;
+	}
+	&__shadow{
+		padding-bottom: 3px;
+		width: 90%;
+		margin-left: 10%;
+		-webkit-box-shadow: 0 20px 40px -20px gray;
+		-moz-box-shadow: 0 20px 40px -20px gray;
+		box-shadow: 0 20px 25px -20px gray;
+	}
+	&__rank{
+		color: #fff;
+		text-align: center;
+		background: linear-gradient(to top, $green, #d4e398);
+		padding: 7%;
+		border-radius: 15px;
+	}
+//Акции
+	&__shares{
+		margin-top: 15px;
+		font-size: 0.8em;
+	}
+	&__pfirst{
+		background-color: #fff8d8;
+		border-radius: 10px 10px 0 0;
+		padding: 4%;
+		color: #968443;
+		margin-top: 5px;
+	}
+	&__psecond{
+		background-color: #fff8d8;
+		padding: 4%;
+		border-radius: 0px 0px 10px 10px;
+		color: #676767;
+	}
+	&__brown{
+		color: #968443;
+		text-decoration: none; 
+	}
+
+	&__psird{
+		background-color: #eeffd8;
+		border-radius: 10px 10px 0 0;
+		padding: 4%;
+		color: #7f9645;
+		margin-top: 5px;
+	}
+	&__pfours{
+		background-color: #eeffd8;
+		border-radius: 0px 0px 10px 10px;
+		padding: 4%;
+		color: #8e908d;
+	}
+	&__green{
+		color: $green;
+		text-decoration: none;
+	}
+
+	&__pfifs{
+		background-color: #d8faff;
+		border-radius: 10px 10px 0 0;
+		padding: 4%;
+		color: #63a2ad;
+		margin-top: 5px;
+	}
+	&__psixs{
+		background-color: #d8faff;
+		border-radius: 0px 0px 10px 10px;
+		padding: 4%;
+		color: #a5b5b8;
+	}
+	&__blue{
+		color: lightblue;
+		text-decoration: none;
+	}
 //Блоки с товарами
 	&__choice{
 		width: 75%;
@@ -127,6 +216,7 @@
 		padding: 1%;
 		margin-top: 10px;
 		font-size: 0.9em;
+		border-radius: 20px;
 	}
 	&__apple{
 		color: $green;
