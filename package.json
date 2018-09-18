@@ -1,12 +1,12 @@
 {
-  "name": "firstsite",
+  "name": "yandex",
   "version": "1.0.0",
   "main": "public/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
+    "type": "git",			
     "url": "git+https://github.com/SkKostya/WEBsite.git"
   },
   "author": "Konstantin",

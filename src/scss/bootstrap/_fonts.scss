@@ -1,11 +1,17 @@
 @font-face {
-	font-family: Calibri;
-	src: local("Calibri"),
-		 url(../fonts/Calibri.ttf);
+	font-family: helvetica-neue-bold;
+	src: local("helvetica-neue-bold"),
+		url(../fonts/helvetica-neue-bold.ttf)
 }
 
 @font-face {
-	font-family: NeoSansPro-Italic;
-	src: local("NeoSansPro-Italic"),
-		 url(../fonts/NeoSansPro-Italic.ttf);
+	font-family: helveticaneuecyr-medium;
+	src: local("helveticaneuecyr-medium"),
+		url(../fonts/helveticaneuecyr-medium.otf)
+}
+
+@font-face {
+	font-family: HelveticaNeue;
+	src: local("HelveticaNeue"),
+		url(../fonts/HelveticaNeue.otf)
 }
